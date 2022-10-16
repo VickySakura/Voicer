@@ -1,7 +1,9 @@
-from pygame import mixer
-mixer.init()
-mixer.music.load(".\\1.wav")
-mixer.music.set_volume(1.0)
-mixer.music.play(2)
-while mixer.music.get_busy()==True:
+from pygame.mixer import init
+from pygame.mixer import music as m
+
+init()
+m.load(".\\1.wav")
+m.set_volume(1.0)
+m.play(2)
+while m.get_busy()==True:
     pass

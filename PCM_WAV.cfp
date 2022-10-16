@@ -4,12 +4,14 @@
 <TargetName>PCM_WAV</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
+	<File>PCM_WAV.C</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 	<File>WavHead.XML</File>
 </Folder>
+<Attribute topline="1" x="21" y="2">PCM_WAV.C</Attribute>
 <Attribute topline="1" x="1" y="2">WavHead.XML</Attribute>
 <DefConfig>A</DefConfig>
 <Builder name="A" type="MinGW" version="1.0">
