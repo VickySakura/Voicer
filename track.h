@@ -26,4 +26,8 @@ x
 -(x*x*x*x*x*x*x*x*x*x*x)/(720*7*8*9*10*11);
 }
 
+float vCos(float x){
+	return vSin(x+0.5*PI);
+}
+
 #endif

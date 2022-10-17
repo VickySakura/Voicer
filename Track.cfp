@@ -10,7 +10,7 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="16" x="9" y="18">track.h</Attribute>
+<Attribute topline="19" x="2" y="31">track.h</Attribute>
 <DefConfig>A</DefConfig>
 <Builder name="A" type="MinGW" version="1.0">
 	<TargetName>Track</TargetName>
