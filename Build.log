@@ -1,0 +1,760 @@
+
+[2022/10/17 10:08:50]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成编译 X:\Voicer\PCM_WAV.C: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.o
+
+[2022/10/17 10:11:09]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成编译 X:\Voicer\PCM_WAV.C: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.o
+
+[2022/10/17 10:15:52]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成编译 X:\Voicer\PCM_WAV.C: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.o
+
+[2022/10/17 10:15:55]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 0
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=-1073741510
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 10:31:34]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+X:\Voicer\PCM_WAV.C:58:10: warning: multi-character character constant
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 1 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=-1073741510
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 10:31:51]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 10:32:23]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 10:33:32]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 10:33:57]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 10:46:30]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=1
+Begin Capture Output--->
+
+X:\Voicer\PCM_WAV.C: In function `int main(int, char**)':
+X:\Voicer\PCM_WAV.C:65: error: `fp' was not declared in this scope
+
+<---End Capture Output
+
+
+编译中止 X:\Voicer\PCM_WAV.C: 1 个错误, 0 个警告
+
+[2022/10/17 10:46:36]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成编译 X:\Voicer\PCM_WAV.C: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.o
+
+[2022/10/17 10:50:52]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=1
+Begin Capture Output--->
+
+X:\Voicer\PCM_WAV.C:19: error: expected `}' before 'd'
+X:\Voicer\PCM_WAV.C:19: error: expected `,' or `;' before 'd'
+X:\Voicer\PCM_WAV.C:20: error: expected declaration before '}' token
+
+<---End Capture Output
+
+
+编译中止 X:\Voicer\PCM_WAV.C: 3 个错误, 0 个警告
+
+[2022/10/17 10:51:05]	Command: Compile
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成编译 X:\Voicer\PCM_WAV.C: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.o
+
+[2022/10/17 11:00:10]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:00:26]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 0
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 0
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:06:01]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:08:55]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 0
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 0
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:13:04]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:21:11]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:21:27]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 0
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 0
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:26:58]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=-1073741510
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:30:06]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=-1073741510
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:33:06]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=1
+Begin Capture Output--->
+
+X:\Voicer\PCM_WAV.C: In function `int main(int, char**)':
+X:\Voicer\PCM_WAV.C:95: error: `fp' was not declared in this scope
+X:\Voicer\PCM_WAV.C:96: error: expected primary-expression before ')' token
+
+<---End Capture Output
+
+
+构建中止 PCM_WAV: 2 个错误, 0 个警告
+
+
+
+[2022/10/17 11:33:16]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=1
+Begin Capture Output--->
+
+X:\Voicer\PCM_WAV.C: In function `int main(int, char**)':
+X:\Voicer\PCM_WAV.C:96: error: expected primary-expression before ')' token
+
+<---End Capture Output
+
+
+构建中止 PCM_WAV: 1 个错误, 0 个警告
+
+
+
+[2022/10/17 11:33:20]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=-1073741510
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
+
+[2022/10/17 11:34:21]	Command: Run
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\A\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\A\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\A\PCM_WAV.exe
+
+"X:\Voicer\A\PCM_WAV.exe" 
+Run program Ok, exit code=-1073741510
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+
