@@ -1,4 +1,4 @@
-#Voicer Project
+<h1>Voicer Project</h1>
 
 Voicer is a project of Virtual Singer support by Karyna.
 <br>
@@ -24,6 +24,7 @@ PCM files store samples with 16-bit type.
 </ul>
 <br>
 <br>
-##
+
+<hr>
 
 README.MD written by Wendy Sakura.
