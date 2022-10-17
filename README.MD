@@ -18,6 +18,10 @@ Only support one channel.
 Version List
 <br>
 <ul>
+<li>0.1Beta</li>
+Provide an approximation algorithm for sine.
+<br>
+Provides a type of sound-track container for floating-point sampling.
 <li>0.0Beta</li>
 Support PCM to WAV of Ozuna.
 PCM files store samples with 16-bit type.
