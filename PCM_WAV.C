@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
 #include <stdlib.h>
-#include <stdlib.h>
+#include <string.h>
 
 const unsigned char
 HEAD[40]={
@@ -24,6 +24,10 @@ static unsigned long long int fSize;
 char *fAddr;
 
 FILE *in,*out;
+
+COORD M;
+
+int tmp;
 
 int main(int iCounter,char **iGet){
 	
@@ -49,7 +53,8 @@ int main(int iCounter,char **iGet){
 	}
 	printf("Open file[%s]succeed.\n",fAddr);
 	
-	out = fopen(".\\OUT.WAV","wb");
+	strcat(fAddr,".WAV");
+	out = fopen(fAddr,"wb");
 	if(out==NULL){
 		printf("Fatal : Create File .\\OUT.WAV Failed.\n");
 		Sleep(500);
@@ -57,47 +62,30 @@ int main(int iCounter,char **iGet){
 	}
 	printf("Create File[.\\OUT.WAV]succeed.\n");
 	
-	fpos_t fpos;
-	fgetpos(in, &fpos);
-	
 	fseek(in, 0, SEEK_END);
 	fSize = ftell(in);
 	
-	fsetpos(in,&fpos);
+	fseek(in, 0, SEEK_SET);
 	
 	unsigned char c;
 	fwrite(&HEAD[0],1,4,out);
 	
-	c = (fSize+36)&0xFF;
-	fwrite(&c,1,1,out);
-	c = (fSize+36)&0xFF00;
-	fwrite(&c,1,1,out);
-	c = (fSize+36)&0xFF0000;
-	fwrite(&c,1,1,out);
-	c = (fSize+36)&0xFF000000;
-	fwrite(&c,1,1,out);
+	tmp=fSize+36;
+	fwrite(&tmp,4,1,out);
 	
 	fwrite(&HEAD[8],1,32,out);
 	
-	c = fSize&0xFF;
-	fwrite(&c,1,1,out);
-	c = fSize&0xFF00;
-	fwrite(&c,1,1,out);
-	c = fSize&0xFF0000;
-	fwrite(&c,1,1,out);
-	c = fSize&0xFF000000;
-	fwrite(&c,1,1,out);
+	fwrite(&fSize,4,1,out);
 	c=0;
 	puts("Writting Head\n"); 
+	
 	while((fread(&c,1,1,in))!=0){
 		fwrite(&c,1,1,out);
-		printf("Writting...%X/%X Bytes\n",ftell(in),fSize);
+		printf("Writting...%X/%X\n",
+			ftell(in),
+			fSize
+		);
 	}
-	puts("Do you want to play it? y/n");
-	if(getchar()=='y'){
-		system(".\\SoundPlay.exe");
-	}
-	
 	fclose(in);
 	fclose(out);
 	free(fAddr);

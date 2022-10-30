@@ -758,3 +758,31 @@ Begin Capture Output--->
 
 
 
+
+[2022/10/30 12:10:06]	Command: Make
+
+--------------------配置: A - CUI Debug, 编译器类型: MinGW--------------------
+
+
+检查文件依赖性...
+X:\Voicer\A\PCM_WAV.o: X:\Voicer\PCM_WAV.C - 1
+X:\Voicer\PCM_WAV.exe: X:\Voicer\A\PCM_WAV.o - 1
+正在编译 X:\Voicer\PCM_WAV.C...
+"C:\MinGW\bin\gcc.exe" "X:\Voicer\PCM_WAV.C" -c -o "X:\Voicer\A\PCM_WAV.o" -ggdb  -IC:\MinGW\include\ -IC:\MinGW\include\C__~1\348B92~1.5\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\include\ -IC:\MinGW\lib\gcc\mingw32\348B92~1.5\INSTAL~1\include\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+正在连接...
+"C:\MinGW\bin\g++.exe"  "X:\Voicer\A\PCM_WAV.o"  -o "X:\Voicer\PCM_WAV.exe"   -LC:\MinGW\lib\ -LC:\MinGW\mingw32\lib\  -BC:\MinGW\bin\ -BC:\MinGW\mingw32\bin\
+Run program Ok, exit code=0
+Begin Capture Output--->
+
+
+<---End Capture Output
+
+
+完成构建 PCM_WAV: 0 个错误, 0 个警告
+生成 X:\Voicer\PCM_WAV.exe

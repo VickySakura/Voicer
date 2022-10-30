@@ -11,7 +11,7 @@
 <Folder name="Other Files">
 	<File>WavHead.XML</File>
 </Folder>
-<Attribute topline="90" x="7" y="95">PCM_WAV.C</Attribute>
+<Attribute topline="81" x="3" y="88">PCM_WAV.C</Attribute>
 <Attribute topline="1" x="5" y="2">WavHead.XML</Attribute>
 <DefConfig>A</DefConfig>
 <Builder name="A" type="MinGW" version="1.0">
